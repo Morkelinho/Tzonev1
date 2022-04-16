@@ -1,0 +1,176 @@
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    * {
+  box-sizing: border-box;
+}
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color:#efebe6;
+        height: 100%;
+        
+        overflow: hidden;
+
+         /* this is what centers your element in the fixed wrapper*/
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center; /* aligns on vertical for column */
+        align-items: center; /* aligns on horizontal for column */
+
+
+    }
+
+    .container {
+        width: 90%;
+        padding:82%;
+
+        background-color: #efebe6;
+        margin:0 auto;
+        /* Center the DIV horizontally */
+    }
+
+    .fixed-header {
+        width: 100%;
+        position: fixed;
+        padding: 40px;
+        color: #333;
+        margin:0 auto;
+        text-align: left;
+        border-radius: 0px 0px 0px;
+      background: #efebe6;
+      box-shadow:  -5px 5px 10px #605e5c,
+             5px -5px 10px #ffffff;
+    }
+
+.fixed-header i {
+  
+  font-size: 1.5rem;
+  align-items: left;
+  cursor: pointer;
+  color: #d76735;
+  margin-left:1rem;
+  margin-top: 3rem;
+  margin:0  auto;
+ 
+
+}
+
+    .fixed-footer {
+        width: 100%;
+        position: fixed;
+        background: #333;
+        padding: 10px;
+        color: #333;
+        margin: auto;
+        text-align: center;
+        border-radius: 0px 0px 0px;
+     background: #efebe6;
+box-shadow:  5px -5px 10px #605e5c,
+             -5px 5px 10px #ffffff;
+    }
+
+    .fixed-header {
+        top: 0;
+        left:0;
+    }
+
+    .fixed-footer {
+        bottom: 0;
+        left: 0;
+    }
+
+    /* Some more styles to beutify this example */
+    nav a {
+        color: #333;
+        text-decoration: none;
+        padding: 7px 10px;
+        display: inline-block;
+        align-items: right;
+        
+    }
+
+
+   .fixed-screen {
+        width: 90%;
+        background: #fff;
+        display:block;
+        padding: 90px;
+        color: #333;
+        margin: 0 auto;
+        border-radius: 0px 0px 0px;
+        background: #9fb7b2;
+        box-shadow: inset -5px 5px 6px #91a7a2,
+            inset 5px -5px 6px #adc7c2,
+            inset -5px 5px 6px #91a7a2,
+            inset 5px -5px 6px #adc7c2
+            ;
+    }
+
+.logo {
+  background:url("/profpic1.jpeg");
+  width:50px;
+  height: 49px;
+  border-radius: 60%;
+  margin-left: 90%;
+
+  box-shadow: 
+  /* logo shadow */
+  0px 0px 2px #5f5f5f,
+  /* offset */
+  0px 0px 0px 5px #ecf0f3,
+  /*bottom right */
+  8px 8px 15px #a7aaaf,
+  /* top left */
+  -8px -8px 15px #ecf0f3;
+}
+
+
+.menu-add {
+
+  width:50px;
+  height: 50px;
+  border-radius: 60%;
+    margin: auto;
+  
+  box-shadow: 
+  /* logo shadow */
+  0px 0px 2px #5f5f5f,
+  /* offset */
+  0px 0px 0px 5px #C0C0C0,
+  /*bottom right */
+  8px 8px 10px #a7aaaf,
+  /* top left */
+  -8px -8px 15px #ecf0f3,
+}
+
+
+.cal-div{
+
+  width: 90%;
+  height: 800px;
+  padding:4%;
+  /* Just for styling */
+border-radius: 0px 0px 0px;
+ background: #efebe6;
+      box-shadow:  0px 0px 9px 0px #605e5c,
+             0px -5px 15px 0px #605e5c;
+
+}
+
+  .hold-month {
+        width: 90%;
+  
+    
+        border-radius: 0px 0px 0px;
+background: #efebe6;
+    }
+
+    .back-button{
+      width: 33px;
+     
+border-radius: 24px;
+background: #efebe6;
+box-shadow:  -5px 5px 10px #a7a5a1,
+             5px -5px 10px #efebe6;
+
+    }

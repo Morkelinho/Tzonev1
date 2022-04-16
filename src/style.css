@@ -1,0 +1,197 @@
+
+
+.logo span {
+
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-left: -14.5rem;
+  margin-bottom: 2rem;
+
+}
+
+.stats {
+  font-size: 0.7rem;
+  font-weight: 500;
+ margin-bottom: 6rem;
+   margin-left: 0.4rem;
+  margin-right: 0.4rem;
+
+}
+
+.stats-div{
+  margin-left: -1.2rem;
+  margin-right: 0.4rem;
+  padding: 15px 5px 5px 2px;
+border-radius: 0px;
+border-radius: 0px;
+background: #dedbca;
+box-shadow: inset 5px 5px 1px #ccc9ba,
+            inset -5px -5px 1px #f0edda;
+}
+
+
+
+
+
+
+.month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+  font-weight: 600;
+  color:#e7991a;
+}
+
+.month i {
+  font-size: 2.5rem;
+  align-items:flex;
+  cursor: pointer;
+
+}
+
+.month h1 {
+  font-size: 1rem;
+  font-weight: 50000;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0.9rem;
+}
+
+.month p {
+  font-size: 0rem;
+}
+
+.daysofweek{
+
+
+  font-size: small;
+  margin-top: -0.3rem;
+  margin-left: 0.8rem;
+
+}
+
+.weekDay {
+
+   padding: 9px 0;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    
+    border-radius: 20%;
+    color: #dbd7d7;
+    background: #3f6f68;
+    box-shadow:  -6px 1px px #2d4f4a,
+             1px -1px px #498178;
+}
+
+.weekendDay
+{
+ 
+
+   align-items: center;
+    padding: 9px 0;
+    text-align: center;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    border-radius: 20%;
+    background: #ecc079;
+  box-shadow:  -6px 6px px #c9a367,
+             1px -2px   §px #ffdd8b;
+
+}
+
+.days {
+
+    margin:0.2rem;
+    padding: 1px;
+    margin-left: 0.5rem;
+ 
+}
+
+.days div {
+    margin: 0.21rem;
+    padding: 9px 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 33px;
+    height: 33px;   
+
+border-radius: 18px;
+box-shadow: inset -6px 6px 12px #c6cacc,
+            inset 6px -6px 12px #ffffff;
+
+}
+
+.days div:hover:not(.today) {
+  background-color: #262626;
+  border: 0.2rem solid #777;
+  cursor: pointer;
+}
+
+.weekend{
+  opacity: 0.5;
+  color: rgb(155, 6, 6);
+}
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: #ffdd8b;
+}
+.underline {
+
+  background-color: rgb(193, 201, 201);
+  height: 1px;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}  
+
+
+
+.todayWeekend {
+  background-color: #ffdd8b;
+    color: rgb(155, 6, 6);
+}
+
+.prev-date_weekend,
+.next-date_weekend{
+  opacity: 0.5;
+}
+
+.midmonth {
+
+    color: rgb(117, 189, 34);
+}
+
+.menu-add {
+
+  width:50px;
+  height: 50px;
+  border-radius: 60%;
+  align-items:center ;
+padding: 5px 3px 8px 2px;
+
+margin-left: -12.5rem;
+margin-top: 35.2rem;
+  
+  box-shadow: 
+  /* logo shadow */
+  0px 0px 2px #5f5f5f,
+  /* offset */
+  0px 0px 0px 5px #ecf0f3,
+  /*bottom right */
+  8px 8px 10px #a7aaaf,
+  /* top left */
+  -8px -8px 15px #ecf0f3;
+}
